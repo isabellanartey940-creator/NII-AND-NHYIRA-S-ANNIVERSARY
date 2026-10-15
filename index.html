@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#7b233e">
+<title>Christian &amp; Nhyira — One Year of Us</title>
+<style>
+:root{--wine:#76243d;--rose:#c65e79;--blush:#fff0f2;--cream:#fffaf4;--ink:#492432;--gold:#d6ad72}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Georgia,"Times New Roman",serif;line-height:1.65}button{font:inherit;cursor:pointer}.hero{min-height:100svh;display:grid;place-items:center;text-align:center;padding:2rem 1.25rem;position:relative;overflow:hidden;background:radial-gradient(ellipse at top,#f9dce3 0,#f7e7e2 42%,#fffaf4 100%)}.hero-inner{position:relative;z-index:1;max-width:760px}.eyebrow{text-transform:uppercase;letter-spacing:.24em;font:600 .75rem Arial,sans-serif;color:var(--wine)}h1{font-size:clamp(2.5rem,9vw,5.8rem);line-height:1.02;margin:.8rem 0;color:var(--wine);font-weight:500}h2{font-size:clamp(2rem,6vw,3.2rem);line-height:1.1;color:var(--wine);font-weight:500;margin:.25rem 0 1rem}.names{font-style:italic;font-size:clamp(1.35rem,4vw,2rem);color:#9d435c;margin:1rem 0 1.7rem}.intro{max-width:520px;margin:0 auto 1.7rem;color:#77515c}.btn{border:0;border-radius:999px;padding:.95rem 1.5rem;background:var(--wine);color:white;box-shadow:0 8px 22px #76243d30;transition:transform .2s,box-shadow .2s}.btn:hover{transform:translateY(-3px);box-shadow:0 12px 28px #76243d40}.heart{position:absolute;bottom:-2rem;color:#ce7188;opacity:.45;animation:floatUp linear infinite;pointer-events:none}@keyframes floatUp{to{transform:translateY(-115vh) rotate(25deg);opacity:0}}@keyframes pulse{50%{transform:scale(1.12)}}.hero-heart{display:inline-block;color:var(--rose);font-size:2rem;animation:pulse 1.6s infinite}.section{padding:5rem 1.2rem;max-width:1100px;margin:auto}.section-head{text-align:center;max-width:680px;margin:0 auto 2.5rem}.section-head p{color:#805b65}.kicker{font:600 .72rem Arial,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--rose)}.cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem}.flip-card{min-height:205px;perspective:1000px;border:0;background:transparent;padding:0;text-align:left;color:inherit}.flip-inner{position:relative;min-height:205px;height:100%;transform-style:preserve-3d;transition:transform .6s}.flip-card.flipped .flip-inner{transform:rotateY(180deg)}.face{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:1.2rem;border-radius:18px;backface-visibility:hidden;box-shadow:0 7px 25px #5b26300e}.front{background:#f9e0e5;border:1px solid #efc5cf}.front .symbol{font-size:2rem}.front strong{font-size:1.15rem;color:var(--wine)}.front small{margin-top:.7rem;font: .72rem Arial,sans-serif;color:#9d5267}.back{background:var(--wine);color:white;transform:rotateY(180deg);font-size:1rem}.letter-wrap{background:linear-gradient(140deg,#f9e7d7,#fff5eb);padding:clamp(1rem,5vw,3rem);border-radius:24px}.letter{max-width:740px;margin:auto;background:#fffdf8;padding:clamp(1.5rem,5vw,3.5rem);border:1px solid #e8d2b5;box-shadow:0 12px 35px #643a2510;position:relative}.letter:before{content:"♡";position:absolute;top:12px;right:20px;color:#d69a9c;font-size:1.5rem}.letter p{white-space:pre-line}.signoff{font-style:italic;color:var(--wine);font-size:1.2rem}.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}.photo{margin:0;background:white;padding:.55rem .55rem .9rem;border-radius:10px;box-shadow:0 10px 28px #54283715;transform:rotate(var(--tilt));transition:transform .25s}.photo:hover{transform:rotate(0) translateY(-5px)}.photo img{display:block;width:100%;height:350px;object-fit:cover;border-radius:6px}.photo figcaption{text-align:center;padding:.65rem .2rem 0;font-style:italic;color:#8a4c60}.notes{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:.8rem}.note{min-height:145px;border:1px solid #efc6cf;border-radius:16px;background:#fff0f3;color:var(--wine);padding:1rem .7rem;transition:transform .2s,background .2s}.note:hover{transform:translateY(-4px)}.note .note-icon{display:block;font-size:1.8rem;margin-bottom:.4rem}.note .message{display:none;font-size:.95rem}.note.open .prompt{display:none}.note.open .message{display:block}.note.open{background:#f7dce3}.closing{text-align:center;padding:4rem 1rem;background:#f8e4e8}.closing p{max-width:580px;margin:1rem auto;color:#79505b}.tiny{font: .8rem Arial,sans-serif;color:#946b75}footer{text-align:center;padding:1.5rem;color:#926775;font-size:.85rem}
+@media(max-width:800px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.notes{grid-template-columns:repeat(2,minmax(0,1fr))}.photo img{height:290px}.notes .note:last-child{grid-column:1/-1}}
+@media(max-width:520px){.section{padding:3.5rem 1rem}.gallery{grid-template-columns:1fr;gap:1.2rem;max-width:420px;margin:auto}.photo{transform:none}.photo img{height:auto;max-height:540px;object-fit:contain;background:#f8e8eb}.flip-card,.flip-inner{min-height:185px}.face{padding:1rem}.notes{gap:.65rem}.note{min-height:135px}.letter-wrap{padding:.7rem}.hero{min-height:94svh}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header class="hero" id="top">
+  <div class="hero-inner">
+    <div class="eyebrow">A little celebration of us</div>
+    <div class="hero-heart">♥</div>
+    <h1>Happy One Year<br>Anniversary My Love</h1>
+    <div class="names">Christian &amp; Nhyira</div>
+    <p class="intro">One year of love, laughter, little moments, and memories I want to keep forever. This little corner of the internet is just for us.</p>
+    <button class="btn" id="openSurprise">Open your surprise&nbsp; ♥</button>
+    <p class="tiny">Made with love, just for you</p>
+  </div>
+</header>
+
+<main id="experience">
+<section class="section" id="reasons">
+  <div class="section-head"><div class="kicker">Little things, big love</div><h2>Things I Love About You</h2><p>Tap each card, my love. There are a few things my heart never gets tired of.</p></div>
+  <div class="cards">
+    <button class="flip-card" aria-label="Reveal why I love your smile"><span class="flip-inner"><span class="face front"><span class="symbol">☺</span><strong>His smile</strong><small>Tap to reveal</small></span><span class="face back">Your smile makes an ordinary day feel brighter. I hope I give you a million reasons to smile.</span></span></button>
+    <button class="flip-card" aria-label="Reveal why I love how you love me"><span class="flip-inner"><span class="face front"><span class="symbol">♡</span><strong>How you love me</strong><small>Tap to reveal</small></span><span class="face back">The way you care for me means more than I can explain. Thank you for making me feel loved and special.</span></span></button>
+    <button class="flip-card" aria-label="Reveal why I love your goofiness"><span class="flip-inner"><span class="face front"><span class="symbol">✿</span><strong>Your goofiness</strong><small>Tap to reveal</small></span><span class="face back">I love that we can be silly together. You make me laugh, and those playful little moments are part of our magic.</span></span></button>
+    <button class="flip-card" aria-label="Reveal how I feel around you"><span class="flip-inner"><span class="face front"><span class="symbol">✨</span><strong>How I feel with you</strong><small>Tap to reveal</small></span><span class="face back">Being around you brings me a happiness I want to hold close. My favourite memories are the ones where we are simply us.</span></span></button>
+  </div>
+</section>
+
+<section class="section" id="letter">
+  <div class="section-head"><div class="kicker">From my heart to yours</div><h2>A Little Love Letter</h2><p>For the boy who has made this year mean so much.</p></div>
+  <div class="letter-wrap"><article class="letter">
+    <p>My sweetest Christian,</p>
+    <p>Happy one-year anniversary, my love. ❤️
+
+Sometimes I think about how lucky I am that our paths crossed. This year has given me so many moments to smile about, so many reasons to appreciate you, and so many memories I want to keep close to my heart.
+
+I love your smile, your goofy side, the way you love me, and the happiness I feel when I am around you. Thank you for being yourself, for the moments we share, and for being someone who means so much to me. Even the simple moments become special when they are with you.
+
+I know love is not just about the perfect days. It is also about patience, understanding, choosing each other, and growing together. I hope we keep learning each other, supporting each other, laughing at our silly jokes, and making beautiful memories for a long, long time.
+
+You are special to me in ways that words can only partly explain. If I could make one wish for us, it would be for a future filled with genuine love, peace, laughter, and countless more anniversaries.
+
+Thank you for being you. I appreciate you more than you know, and I love you so much. And just so you know… you can't miss or love me more than I do! 🤭❤️</p>
+    <p class="signoff">Forever cheering for us,<br>Your Nhyira ♡</p>
+    <!-- Edit the letter above any time to make it even more personal. -->
+  </article></div>
+</section>
+
+<section class="section" id="memories">
+  <div class="section-head"><div class="kicker">Our little timeline</div><h2>Memory Lane</h2><p>Three snapshots, so many feelings. Here’s to all the moments we’ve shared and the ones still waiting for us.</p></div>
+  <div class="gallery">
+    <!-- Replace the image files in the photos folder to change these pictures. Keep the filenames or update each src below. -->
+    <figure class="photo" style="--tilt:-1deg"><img src="photos/mirror-selfie.jpeg" alt="Christian and Nhyira taking a mirror selfie" loading="lazy"><figcaption>Just us, being us ♡</figcaption></figure>
+    <figure class="photo" style="--tilt:1deg"><img src="photos/close-together.jpeg" alt="A close-up happy moment together" loading="lazy"><figcaption>My favourite kind of closeness</figcaption></figure>
+    <figure class="photo" style="--tilt:-.5deg"><img src="photos/memory-collage.jpeg" alt="A collage of sweet memories together" loading="lazy"><figcaption>Little moments, forever memories</figcaption></figure>
+  </div>
+</section>
+
+<section class="section" id="notes">
+  <div class="section-head"><div class="kicker">A few secret reminders</div><h2>Open When You Need a Smile</h2><p>Tap each little note to open your message. Save some sweetness for later, too.</p></div>
+  <div class="notes">
+    <button class="note"><span class="note-icon">💌</span><span class="prompt">Open me</span><span class="message"><strong>Thank you for being you</strong><br>Every little part of you makes you who you are, and I’m grateful I get to know and love you.</span></button>
+    <button class="note"><span class="note-icon">💗</span><span class="prompt">A little love</span><span class="message"><strong>I love you so much</strong><br>More than one message, one picture, or one anniversary page could ever fit.</span></button>
+    <button class="note"><span class="note-icon">🌷</span><span class="prompt">A reminder</span><span class="message"><strong>I really appreciate you</strong><br>Your time, your care, your effort, and the memories we make mean a lot to me.</span></button>
+    <button class="note"><span class="note-icon">✨</span><span class="prompt">Our future</span><span class="message"><strong>Here’s to lasting memories</strong><br>I hope our future holds more growth, laughter, adventures, and love that keeps choosing each other.</span></button>
+    <button class="note"><span class="note-icon">😘</span><span class="prompt">The final note</span><span class="message"><strong>You know you can't miss or love me more than I do!</strong><br>Hehe. It’s a competition you’re never winning, my love. ❤️</span></button>
+  </div>
+</section>
+
+<section class="closing">
+  <div class="hero-heart">♥</div><h2>One year down, more memories to go.</h2>
+  <p>Christian, thank you for being part of my story. Happy anniversary, my love. Here’s to us, today and always.</p>
+  <div class="names">Christian &amp; Nhyira</div>
+  <button class="btn" id="backTop">Read it all again ♡</button>
+</section>
+</main>
+<footer>Made with ♡ by Nhyira, for Christian</footer>
+<script>
+const openBtn=document.getElementById('openSurprise');
+openBtn.addEventListener('click',()=>document.getElementById('experience').scrollIntoView({behavior:'smooth'}));
+document.getElementById('backTop').addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+document.querySelectorAll('.flip-card').forEach(card=>card.addEventListener('click',()=>card.classList.toggle('flipped')));
+document.querySelectorAll('.note').forEach(note=>note.addEventListener('click',()=>note.classList.toggle('open')));
+const reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+if(!reduceMotion){
+ const hero=document.querySelector('.hero');
+ const symbols=['♥','♡','✧','✦'];
+ for(let i=0;i<22;i++){
+  const particle=document.createElement('span');particle.className='heart';
+  particle.textContent=symbols[Math.floor(Math.random()*symbols.length)];
+  particle.style.left=(Math.random()*100)+'%';
+  particle.style.fontSize=(12+Math.random()*22)+'px';
+  particle.style.animationDuration=(9+Math.random()*12)+'s';
+  particle.style.animationDelay=(-Math.random()*18)+'s';
+  hero.appendChild(particle);
+ }
+}
+</script>
+</body>
+</html>
